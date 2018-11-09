@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestRecorder]">
+  <test thread-count="5" name="ThisIsTestSuiteName(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testNG.RecorderTest">
+        <methods>
+          <include name="tearDownAfterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDownAfterClass"/>
+          <include name="FirstTest"/>
+        </methods>
+      </class> <!-- testNG.RecorderTest -->
+    </classes>
+  </test> <!-- ThisIsTestSuiteName(failed) -->
+</suite> <!-- Failed suite [TestRecorder] -->

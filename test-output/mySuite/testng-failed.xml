@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [mySuite]">
+  <test thread-count="5" name="myTest(failed)">
+    <classes>
+      <class name="PDFEmail.PDFEmail">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testPDFReportOne"/>
+          <include name="testPDFReportThree"/>
+          <include name="testPDFReporTwo"/>
+        </methods>
+      </class> <!-- PDFEmail.PDFEmail -->
+    </classes>
+  </test> <!-- myTest(failed) -->
+</suite> <!-- Failed suite [mySuite] -->

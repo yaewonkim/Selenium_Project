@@ -1,0 +1,51 @@
+[RemoteTestNG] detected TestNG version 6.14.2
+[JyperionListener] JyperionListener() start
+[JyperionListener] Start Of Test-Suite Execution->DemoTest
+1541577587012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YAEWON~1\\AppData\\Local\\Temp\\rust_mozprofile.OIxZb12RXrGc"
+1541577589232	Marionette	INFO	Listening on port 60450
+1541577589304	Marionette	WARN	TLS certificate errors will be ignored for this session
+11월 07, 2018 4:59:49 오후 org.openqa.selenium.remote.ProtocolHandshake createSession
+정보: Detected dialect: W3C
+SearchNameData들어옴
+Name: Alex Zimb
+[JyperionListener] <<Success>> FirstTest
+screenshot file path: C:\Users\YaewonKim\workspace\Selenium_Project\screenshot\FirstTest_1107_045953.png
+Name: Andrew Scott
+[JyperionListener] <<Success>> FirstTest
+screenshot file path: C:\Users\YaewonKim\workspace\Selenium_Project\screenshot\FirstTest_1107_045955.png
+Name: Andy Kim
+[JyperionListener] <<Failed>> FirstTest
+screenshot file path: C:\Users\YaewonKim\workspace\Selenium_Project\screenshot\FirstTest_1107_050009.png
+Name: abc
+[JyperionListener] <<Failed>> FirstTest
+screenshot file path: C:\Users\YaewonKim\workspace\Selenium_Project\screenshot\FirstTest_1107_050023.png
+Name: Alex Antion
+[JyperionListener] <<Success>> FirstTest
+screenshot file path: C:\Users\YaewonKim\workspace\Selenium_Project\screenshot\FirstTest_1107_050026.png
+SecondTest입니다.
+[JyperionListener] <<Success>> SecondTest
+screenshot file path: C:\Users\YaewonKim\workspace\Selenium_Project\screenshot\SecondTest_1107_050026.png
+ThirdTest입니다.
+[JyperionListener] <<Success>> ThirdTest
+screenshot file path: C:\Users\YaewonKim\workspace\Selenium_Project\screenshot\ThirdTest_1107_050026.png
+1541577626491	Marionette	INFO	Stopped listening on port 60450
+[Child 16612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/[Parent 16660, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16660, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 15008, Chrome_ChildThread] WARNING: pipe error: 109: fi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[JyperionListener] END Of Test-Suite Execution->DemoTest
+[JyperionListener] Added fail table
+[JyperionListener] Added success table
+pdf filepath: C:\Users\YaewonKim\workspace\Selenium_Project\report\DemoTest.pdf
+
+===============================================
+Demo-Suite-Name
+Total tests run: 7, Failures: 2, Skips: 0
+===============================================
+
